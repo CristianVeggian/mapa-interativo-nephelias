@@ -1,0 +1,66 @@
+{
+  "players": {
+    "b993e4526238d62f6b1b90e605532ff8": { "label": "Allan", "visiblePoints": ["nova_aquamarel", "aldazir", "vynia_caladwenya", "morthendir", "luminas", "kyosha"] },
+    "dc53fc4f621c80bdc2fa0329a6123708": { "label": "Lucas", "visiblePoints": ["nova_aquamarel", "aldazir", "vynia_caladwenya", "morthendir", "luminas", "kyosha", "biritynia"] },
+    "6b61d6f501bd285d397a40a984959a05": { "label": "Matheus", "visiblePoints": ["nova_aquamarel", "aldazir", "vynia_caladwenya", "morthendir", "luminas", "kyosha"] },
+    "c6cc8094c2dc07b700ffcc36d64e2138": { "label": "Pedro", "visiblePoints": ["nova_aquamarel", "aldazir", "vynia_caladwenya", "morthendir", "luminas", "kyosha"] }
+  },
+  "points": [
+    {
+      "id": "nova_aquamarel",
+      "name": "Nova Aquamarel",
+      "type": "city",
+      "x": 0.32,
+      "y": 0.42,
+      "description": "Erguida sobre as ruínas da antiga cidade destruída na Era das Sombras, Nova Aquamarel é o coração pulsante de Nephelias e o maior símbolo da união entre os povos. Suas ruas fervilham com todas as raças conhecidas, tecnologias emergentes e interesses conflitantes, enquanto balões de ar quente cruzam o céu e guildas disputam influência nos bastidores. Governada por leis civis e não por linhagem, a cidade equilibra progresso e tensão política, sendo ao mesmo tempo um farol de esperança e um caldeirão de conspirações."
+    },
+    {
+      "id": "aldazir",
+      "name": "Al'Dazir",
+      "type": "city",
+      "x": 0.72,
+      "y": 0.65,
+      "description": "Al’dazir é uma cidade-oásis situada no coração do deserto ao sul do continente de Kamau, surgindo como um raro e impressionante foco de vida em meio à aridez implacável. No centro da cidade erguem-se os majestosos Jardins Suspensos, uma estrutura de múltiplos níveis que jorra água e sustenta uma vegetação exuberante trazida de diversas regiões de Nephelias, culminando no Palácio do Sultão, governante de Al’dazir. Ao redor desse núcleo vital, espalham-se casas de arenito e bazares vibrantes, enquanto antigas ruínas de uma civilização esquecida, remanescente da Era das Sombras, circundam a cidade e abrigam aqueles que vivem à margem de suas leis."
+    },
+    {
+      "id": "vynia_caladwenya",
+      "name": "Vinya Caladwenya",
+      "type": "city",
+      "x": 0.23,
+      "y": 0.57,
+      "description": "Oculta no seio de uma floresta ancestral, Vynia Caladwenya é a expressão máxima da cultura élfica e da harmonia forçada entre civilização e natureza. Construída entre copas gigantes e passarelas vivas, a cidade parece mais cultivada do que erguida, respirando magia antiga e tradição aristocrática. Embora bela e etérea, Vynia carrega uma política rígida, orgulho elevado e uma vigilância constante sobre tudo que ameace o equilíbrio natural que jurou proteger."
+    },
+    {
+      "id": "morthendir",
+      "name": "Morthendir",
+      "type": "city",
+      "x": 0.395,
+      "y": 0.52,
+      "description": "Esculpida nas entranhas das montanhas, Morthendir é uma fortaleza viva de pedra, fogo e aço, onde o som de martelos nunca cessa. A cidade-anã é um labirinto de túneis iluminados por gemas e fornalhas, lar dos maiores ferreiros e artesãos de Nephelias. Honra, resistência e tradição moldam cada aspecto da vida local, e qualquer estrangeiro que atravesse seus portões sente imediatamente o peso de uma cultura que valoriza o trabalho árduo acima de tudo."
+    },
+    {
+      "id": "luminas",
+      "name": "Luminas",
+      "type": "city",
+      "x": 0.30,
+      "y": 0.29,
+      "description": "Conhecida como o Brilho da Civilização Humana, Luminas se estende pelas planícies férteis às margens do rio Lucent, combinando opulência, comércio e ambição. Suas torres claras, praças largas e jardins exuberantes escondem desigualdades profundas, onde arenas, teatros e mercados coexistem com subúrbios esquecidos. Luminas é uma cidade de oportunidades — e de predadores — onde reputação vale tanto quanto ouro e ninguém sobe sem que outro caia."
+    },
+    {
+      "id": "kyosha",
+      "name": "Kyosha",
+      "type": "city",
+      "x": 0.68,
+      "y": 0.34,
+      "description": "Situada entre colinas chuvosas no norte de Kamau, Kyosha é uma cidade de disciplina, serenidade e tradição marcial. Suas vielas cobertas por pétalas de cerejeira conduzem a templos, mosteiros e ao palácio Kyoshin, onde o equilíbrio entre corpo, mente e espírito é cultivado com rigor. Embora pacífica à primeira vista, Kyosha abriga guerreiros formidáveis e uma cultura que valoriza o autocontrole como a mais alta forma de poder."
+    },
+    {
+      "id": "biritynia",
+      "name": "Biritynia",
+      "type": "village",
+      "x": 0.24,
+      "y": 0.61,
+      "description": "Um pacato vilarejo de gnomos da floresta."
+    }
+  ]
+}

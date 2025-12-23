@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mapa do Mundo</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- Modal de acesso -->
+<div id="key-modal" class="modal">
+  <div class="modal-content">
+    <h2>Mapa do Mundo</h2>
+    <p>Digite sua chave de acesso:</p>
+    <input type="text" id="player-key" placeholder="Ex: arthur" />
+    <button id="enter-btn">Entrar</button>
+    <p id="error-msg"></p>
+  </div>
+</div>
+
+<!-- Container do mapa -->
+<div id="map-container">
+  <img id="map-image" src="assets/map.jpg" alt="Mapa do Mundo" />
+</div>
+
+<script src="js/map.js"></script>
+</body>
+</html>

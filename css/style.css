@@ -1,0 +1,94 @@
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #111;
+}
+
+/* Container do mapa */
+#map-container {
+  position: relative;
+  width: 100%;
+  max-width: 2048px;
+  margin: 0 auto;
+}
+
+#map-image {
+  width: 100%;
+  display: block;
+}
+
+/* Ícones no mapa */
+.map-point {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  cursor: pointer;
+}
+
+.map-point img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Tooltip */
+.tooltip {
+  position: absolute;
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(20, 20, 20, 0.95);
+  color: #fff;
+  padding: 10px;
+  width: 260px;
+  border-radius: 6px;
+  font-size: 14px;
+  display: none;
+  z-index: 10;
+  text-align: justify;
+}
+
+.tooltip strong {
+  display: block;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.map-point:hover .tooltip {
+  display: block;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.modal-content {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  width: 300px;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+}
+
+.modal-content button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#error-msg {
+  color: #ff6b6b;
+  margin-top: 10px;
+}
