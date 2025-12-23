@@ -28,6 +28,7 @@ body {
 .map-point img {
   width: 32px;
   height: 32px;
+  transition: transform 0.2s ease;
 }
 
 /* Tooltip */
@@ -51,6 +52,10 @@ body {
   display: block;
   text-align: center;
   margin-bottom: 6px;
+}
+
+.map-point:hover img {
+  transform: scale(1.3); /* aumenta 30% */
 }
 
 .map-point:hover .tooltip {
